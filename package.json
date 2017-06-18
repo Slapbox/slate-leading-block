@@ -3,7 +3,7 @@
   "description": "Slate plugin to ensure a leading block.",
   "version": "0.2.4",
   "license": "Apache-2.0",
-  "repository": "git://github.com/GitbookIO/slate-trailing-block.git",
+  "repository": "https://github.com/Slapbox/slate-leading-block.git",
   "main": "./dist/index.js",
   "peerDependencies": {
     "slate": "*"
