@@ -1,5 +1,8 @@
 # slate-leading-block
 
+## Thanks to GitbookIO
+#### for their trailing block plugin, which this is simply a rewrite of for leading blocks
+
 [![NPM version](https://badge.fury.io/js/slate-leading-block.svg)](http://badge.fury.io/js/slate-leading-block)
 [![Linux Build Status](https://travis-ci.org/GitbookIO/slate-leading-block.png?branch=master)](https://travis-ci.org/GitbookIO/slate-leading-block)
 
@@ -31,8 +34,8 @@ This plugin accepts options to redefine the following block types:
 
 `slate-leading-block` exports utilities and transforms:
 
-#### `transforms.focusAtEnd`
+#### `transforms.focusAtStart`
 
-`plugin.transforms.focusAtEnd(transform: Transform) => Transform`
+`plugin.transforms.focusAtStart(transform: Transform) => Transform`
 
-Focus at the end of the last block.
+Focus at the end of the first block. (?)
