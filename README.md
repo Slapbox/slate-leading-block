@@ -1,23 +1,23 @@
-# slate-trailing-block
+# slate-leading-block
 
-[![NPM version](https://badge.fury.io/js/slate-trailing-block.svg)](http://badge.fury.io/js/slate-trailing-block)
-[![Linux Build Status](https://travis-ci.org/GitbookIO/slate-trailing-block.png?branch=master)](https://travis-ci.org/GitbookIO/slate-trailing-block)
+[![NPM version](https://badge.fury.io/js/slate-leading-block.svg)](http://badge.fury.io/js/slate-leading-block)
+[![Linux Build Status](https://travis-ci.org/GitbookIO/slate-leading-block.png?branch=master)](https://travis-ci.org/GitbookIO/slate-leading-block)
 
-Slate plugin to ensure a trailing block.
+Slate plugin to ensure a leading block.
 
 ### Install
 
 ```
-npm install slate-trailing-block
+npm install slate-leading-block
 ```
 
 ### Simple Usage
 
 ```js
-import TrailingBlock from 'slate-trailing-block'
+import LeadingBlock from 'slate-leading-block'
 
 const plugins = [
-  TrailingBlock({ type: 'paragraph' })
+  LeadingBlock({ type: 'paragraph' })
 ]
 ```
 
@@ -25,11 +25,11 @@ const plugins = [
 
 This plugin accepts options to redefine the following block types:
 
-- ``[type: String]`` — type for the trailing block
+- ``[type: String]`` — type for the leading block
 
 ### Utilities
 
-`slate-trailing-block` exports utilities and transforms:
+`slate-leading-block` exports utilities and transforms:
 
 #### `transforms.focusAtEnd`
 
