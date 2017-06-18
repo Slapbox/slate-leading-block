@@ -1,6 +1,6 @@
 {
-  "name": "slate-trailing-block",
-  "description": "Slate plugin to ensure a trailing block.",
+  "name": "slate-leading-block",
+  "description": "Slate plugin to ensure a leading block.",
   "version": "0.2.4",
   "license": "Apache-2.0",
   "repository": "git://github.com/GitbookIO/slate-trailing-block.git",
